@@ -1,0 +1,160 @@
+img.logoFP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+div.main {
+    max-width: 900px;
+    width: 100vw;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+div.mainCenter {
+    max-width: 900px;
+    width: 90vw;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+span.links {
+    font-family: "helvetica", "DejaVu Sans";
+    color: black;
+    font-weight: bold;
+    background-color: #668cff;
+    vertical-align: middle;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+	border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* If the screen size is 1001px wide or more, set the font-size to 16px */
+@media screen and (min-width: 1001px) {
+  span.links {
+    font-size: 16px;
+  }
+}
+
+/* If the screen size is 1000px wide or less, set the font-size to 11px */
+@media screen and (max-width: 1000px) {
+  span.links {
+    font-size: 11px;
+  }
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+span.links:hover {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+h1 {
+    font-family: "helvetica", "DejaVu Sans";
+    color: #ffcc33;
+    font-weight: bold;
+    font-size: 18pt;
+    padding-bottom: 1px;
+}
+
+h2 {
+    font-family: "helvetica", "DejaVu Sans";
+    color: #DDDDDD;
+    font-size: 14pt;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+portheading {
+    font-family: "helvetica", "DejaVu Sans";
+    margin-top: 100px;
+    color: #DDDDDD;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "helvetica", "DejaVu Sans";
+    color: #DDDDDD;    
+    font-size: 14pt;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-left: 15px;
+}
+
+.extra {
+    background-color: #333333;
+    margin: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+	border-radius: 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.footer {
+    font-family: "helvetica", "DejaVu Sans";
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12pt;
+    font-weight: normal;
+    margin-bottom: 60px;
+    color: #DDDDDD;        
+}
+
+.note {
+    background-color: #ffcc33;
+    margin-left: 0px;
+    width: 100%;
+    font-family: "helvetica", "DejaVu Sans";
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    opacity: 1;
+    padding: 10px;
+	border-radius: 10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+summary.main {
+    font-family: "helvetica", "DejaVu Sans";
+    color: #ffcc33;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+details.main {
+    font-family: "helvetica", "DejaVu Sans";
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #668cff;
+}
